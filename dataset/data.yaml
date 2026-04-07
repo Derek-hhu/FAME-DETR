@@ -1,0 +1,11 @@
+# dataset path
+path: /home/user/Desktop/project/FAME-DETR/
+train: ./dataset/images/train
+val: ./dataset/images/val
+test: ./dataset/images/test
+
+# number of classes
+nc: 12
+
+# class names
+names: ['debris', 'satellite', 'proba_2', 'cheops', 'double_start', 'earth_observation_sat_1', 'lisa_pathfinder', 'proba_3_csc', 'proba_3_ocs', 'smart_1', 'soho', 'xmm_newton']
